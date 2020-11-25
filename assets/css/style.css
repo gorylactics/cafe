@@ -1,0 +1,168 @@
+/* reset*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6,li {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+/* /reset */
+
+/* index */
+
+/* navbar */
+.navbar{
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.logo{
+    width: 3vw;
+    margin: 10px;
+}
+
+ul{
+    display: inline-block;
+    
+}
+
+li{
+    float: left;
+    margin-left: 4vw;
+    list-style-type: none;
+    color: white;
+    font-size: 1em;
+}
+li:hover{
+    transition: 0.5s;
+    color: grey;
+}
+/* /navbar */
+
+/* contenido index */
+.imgPrincipal{
+   
+    width: 100%;
+    margin-top: 58px;
+}
+.textoFlotante{
+    
+   position: sticky;
+   margin-top: -20vh;
+   text-align: center;
+   color: whitesmoke;
+   text-shadow: 3px 3px 3px grey;
+   
+}
+
+.tituloFlotante{
+    margin: 0;
+    padding: 0;
+    font-size: 2.3em;
+    text-align: end;
+    margin-right: 1vw;
+    
+}
+
+.subtituloFlotante{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    text-align: end;
+    margin-right: 1vw;
+}
+
+.foto2{
+    padding-top: 20vh;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.invitacion{
+    text-align: center;
+}
+
+.seccion3{
+    
+        background-color: indianred;
+        display: inline-flex;
+   
+}
+
+.foto3{
+    width: 20vw;
+    
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    margin-right: 2vw;
+    margin-left: 15vw;    
+}
+
+.info{
+
+    padding-top: 7vh;
+    padding-right: 15vh;
+    color: white;
+    
+
+}
+
+.tituloSeccion4{
+    text-align: center;
+}
+.subItem{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.entradas{
+    width: 25vw;
+}
+
+.footer{
+    background-color: black;
+    padding: 3vh;
+    
+}
+
+.footerText{
+    color: whitesmoke;
+    text-align: center;
+}
+.iconos{
+    display: block;
+    margin-left: 43%;
+    margin-right: auto;
+}
+.icono{
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40px;
+}
+/* /contenido index */
+
+/* pagina evento 01 */
+
+.seccionEvento{
+    padding-left: 22vw;
+    padding-right: 22vw;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+.textoContenido{
+    text-align: justify;
+}
